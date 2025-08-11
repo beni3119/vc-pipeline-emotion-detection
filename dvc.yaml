@@ -12,7 +12,7 @@ stages:
     - src/data/data_preprocessing.py
     outs:
     - data/processed
-  feature_enginerring:
+  feature_engineering:
     cmd: python src/features/build_features.py
     deps:
     - data/processed
