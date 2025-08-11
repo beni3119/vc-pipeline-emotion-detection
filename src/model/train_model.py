@@ -59,7 +59,7 @@ def save_model(model, file_path):
 
 # Main execution
 try:
-    X_train, y_train = load_data('./data/features/train_bow.csv')
+    X_train, y_train = load_data('./data/features/train_tfidf.csv')
     clf = train_model(X_train, y_train, params)
     save_model(clf, 'models/model.pkl')
 except Exception as e:

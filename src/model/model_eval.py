@@ -77,8 +77,8 @@ def save_metrics(metrics, output_path):
 
 def main():
     """Main function to execute the model evaluation pipeline."""
-    model_path = '/Users/beni31/Documents/CampusX DSMP/2.0/cookie-cutter-pipeline/models/model.pkl'
-    test_data_path = './data/features/test_bow.csv'
+    model_path = '/Users/beni31/Documents/CampusX DSMP/2.0/4_vc-pipeline-emotion-detection/models/model.pkl'
+    test_data_path = './data/features/test_tfidf.csv'
     metrics_output_path = 'metrics.json'
     try:
         clf = load_model(model_path)
