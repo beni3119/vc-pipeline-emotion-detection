@@ -1,0 +1,4 @@
+[core]
+    remote = myremote
+['remote "myremote"']
+    url = /var/folders/px/20pr31fn7l96hp71rtp9pvbr0000gn/T/dvc7
